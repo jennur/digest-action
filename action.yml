@@ -4,6 +4,12 @@ inputs:
   repo-token:
     description: 'GitHub repository token'
     required: true
+  webhook-id: 
+    description: 'Discord webhook id'
+    required: true
+  webhook-token: 
+    description: 'Discord webhook token'
+    required: true
 outputs:
   time: # output will be available to future steps
     description: 'The message to output'
